@@ -30,7 +30,6 @@ class SendMailController {
 
         const npsPath = resolve(__dirname, "..", "views", "emails", "npsMail.hbs");
 
-
         const variables = {
             name: user.name,
             title: survey.title,
