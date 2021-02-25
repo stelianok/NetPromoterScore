@@ -55,7 +55,7 @@ export default class CreateSurveysUser1614252172417 implements MigrationInterfac
 
     public async down(queryRunner: QueryRunner): Promise<void> {
 
-        await queryRunner.dropTable('CreateSurveysUser');
+        await queryRunner.dropTable('surveys_users');
     }
 
 }
