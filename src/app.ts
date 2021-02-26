@@ -2,15 +2,15 @@ import 'reflect-metadata';
 import createConnection from './database';
 import express, { NextFunction, Request, Response } from 'express';
 import 'express-async-errors';
-import router from './routes';
 import AppError from './errors/AppError';
+import routes from './routes';
 
 createConnection();
 
 const app = express();
 
 app.use(express.json());
-app.use(router);
+app.use(routes);
 app.use((err: Error, request: Request, response: Response, _next: NextFunction) => {
     if (err instanceof AppError) {
         return response.status(err.statusCode).json({
