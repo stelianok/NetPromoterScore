@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
 import { getCustomRepository, IsNull, Not } from 'typeorm';
+import * as yup from 'yup';
+
 import SurveysUsersRepository from '../repositories/SurveysUsersRepository';
 
 
