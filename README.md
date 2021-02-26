@@ -5,12 +5,12 @@
 
 ## Sumário
 
-- [Tecnologias Utilizadas](##Tecnologiasutilizadas)
-- [Sobre o projeto](##Sobreoprojeto)
-- [Estrutura do banco de dados](##estruturadobancodedados)
-- [Rotas](##rotas)
-- [Contato](##Contato)
-- [Licença](licenca)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Sobre o projeto](#sobre-o-projeto)
+- [Estrutura do banco de dados](#estrutura-do-banco-de-dados)
+- [Rotas](#rotas)
+- [Contato](#contato-)
+- [Licença](#licença-%EF%B8%8F)
 
 ---
 
